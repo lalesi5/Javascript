@@ -40,3 +40,18 @@ function imprimir(){
 }
 
 imprimir();
+
+var nombres = ['Lales','Alex','Francisco'];
+
+
+var coche = {
+    modelo: 'Mercedes Clase A',
+    vMaxima: 500,
+    anio: 2020,
+    mostrarDatos(){
+        console.log(this.anio,this.modelo,this.vMaxima);
+    }
+};
+
+document.write("<h1>"+coche.antiguerdad+"</h1>");
+coche.mostrarDatos();
